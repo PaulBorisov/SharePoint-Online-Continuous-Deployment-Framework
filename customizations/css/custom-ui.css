@@ -1,0 +1,284 @@
+﻿/* OOTB branding */
+body{}
+
+#suiteBarLeft
+{
+	background-color:#000000;
+}
+#s4-workspace #siteIcon {
+    float: left;
+    margin: 9px 0px 0px 10px;
+}
+
+#s4-workspace #siteIcon .ms-siteicon-img
+{
+	display: none !important;
+}
+#s4-workspace #siteIcon .ms-siteicon-a {
+	display: inline-block;
+    max-height: 61px;
+    max-width: 184px;
+    height:61px;
+    width:184px;
+    margin-top:-10px;
+    background: url("images/logo.png") no-repeat scroll 0 0 transparent !important;
+}
+
+#s4-workspace  #s4-titlerow {
+    background: url("images/title-row-bg.png") no-repeat scroll right 50px #810b19 !important;
+}
+
+#s4-workspace .ms-breadcrumb-box {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.ms-breadcrumb-top {
+	height: 30px;
+	margin-top: 10px;
+	background-color: #fff;
+/*	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:8pt;
+*/
+}
+
+.custom-ms-breacrumb-top .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 26px;
+  background-color:#810b19;
+}
+
+.custom-ms-breacrumb-top .ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item
+{
+  padding: 0.35em 1.75em !important;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background 0.2s linear;  
+}
+
+/*title piiloon*/
+#s4-workspace #pageTitle {
+	display: none;
+}
+
+#s4-workspace .ms-core-pageTitle, #s4-workspace .ms-core-pageTitle a {
+	font-size: 10px;
+	font-weight: bold;
+	/*margin:4px 0 10px !important;*/
+}
+#s4-workspace .ms-belltown-searcharea {
+    padding-top: 50px!important;
+}
+.ms-core-listMenu-verticalBox, .ms-core-listMenu-horizontalBox {
+    font-size: 1.2em;
+}
+.ms-core-header .ms-core-listMenu-item, .ms-core-header .ms-core-listMenu-item:link, .ms-core-header .ms-core-listMenu-item:visited, .ms-core-header .ms-tv-item:link, .ms-core-header .ms-tv-item:visited, .ms-core-header .ms-tv-header:link, .ms-core-header .ms-tv-header:visited {
+    color: #222222;
+}
+.ms-core-header .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link, .ms-core-header .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:visited, .ms-core-header .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected, .ms-core-header .ms-tv-selected:link {
+    color: #000;
+}
+
+.ms-siteicon-img {
+    display:none;
+}
+
+.ms-siteicon-a {
+    display: inline-block;
+    max-height: 61px;
+    max-width: 184px;
+    height:61px;
+    width:184px;
+    margin-top:-10px;   
+    background: url("images/logo.png") no-repeat scroll 0 0 transparent !important;
+}
+
+.ms-srch-sb {
+	background-color: #fff;
+}
+
+/* Bootstrap branding */
+#s4-workspace .masthead.container-fluid {padding:0 !important;}
+    #s4-workspace .masthead .header {
+        background: url("images/title-row-bg.png") no-repeat scroll right 0px #810b19 !important;
+        margin:0;
+    }
+        #s4-workspace .masthead .header .pull-left a {margin:18px 20px 0 20px;}
+            #s4-workspace .masthead .header .headtitle.pull-left a {margin:2px!important;}
+        #s4-workspace .masthead .header .ms-srch-sb { margin:10px 10px 0 0;}
+
+#s4-workspace .navbar-inner {border:none;border-radius:0px;box-shadow:none;}
+    #s4-workspace .navbar-inverse .navbar-inner {border-color: transparent;margin:10px 0 0 0;background:#000;}
+        #s4-workspace .navbar-inverse .navbar-inner .container {background:#000;}
+        #s4-workspace .navbar-inverse .nav li.static > a.selected,
+        #s4-workspace .navbar-inverse .nav li.static > a:hover {
+            background-color:rgba(0, 0, 0, 0.25);
+            /*box-shadow:0 3px 8px rgba(255, 255, 255, 0.25) inset;*/
+            box-shadow:none;
+        }
+            #s4-workspace .navbar-inverse .nav li.static > a.selected:hover {background-color:rgba(0, 0, 0, 0.1);}
+        #s4-workspace .navbar-inverse .btn-navbar {
+            background-color: #000;
+            background-image: linear-gradient(to bottom, #000, #000);
+        }
+        #s4-workspace .navbar-inverse .btn-navbar:hover,
+        #s4-workspace .navbar-inverse .btn-navbar:active,
+        #s4-workspace .navbar-inverse .btn-navbar.active,
+        #s4-workspace .navbar-inverse .btn-navbar.disabled,
+        #s4-workspace .navbar-inverse .btn-navbar[disabled] {
+          color: #eee;
+          background-color: #000;
+          *background-color: #000;
+        }
+        #s4-workspace .navbar-inverse .nav li.static > a.selected,
+        #s4-workspace .navbar-inverse .nav li.static > a:hover {
+            color: #fff !important;
+        }
+
+#s4-workspace textarea:focus,
+#s4-workspace input[type="text"]:focus,
+#s4-workspace input[type="password"]:focus,
+#s4-workspace input[type="datetime"]:focus,
+#s4-workspace input[type="datetime-local"]:focus,
+#s4-workspace input[type="date"]:focus,
+#s4-workspace input[type="month"]:focus,
+#s4-workspace input[type="time"]:focus,
+#s4-workspace input[type="week"]:focus,
+#s4-workspace input[type="number"]:focus,
+#s4-workspace input[type="email"]:focus,
+#s4-workspace input[type="url"]:focus,
+#s4-workspace input[type="search"]:focus,
+#s4-workspace input[type="tel"]:focus,
+#s4-workspace input[type="color"]:focus,
+#s4-workspace .uneditable-input:focus {
+  border-color: rgba(125, 125, 125, 0.2);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(125, 125, 125, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(125, 125, 125, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(125, 125, 125, 0.6);
+}
+
+#s4-workspace li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover,
+#s4-workspace li > a.ms-core-listMenu-item:hover,
+#s4-workspace li > a.ms-core-listMenu-item:active,
+#s4-workspace .ms-core-listMenu-selected:link,
+#s4-workspace .ms-core-listMenu-selected:visited,
+#s4-workspace .ms-core-listMenu-selected {
+    background-color: rgba(125, 125, 125, 0.1);
+    color: #222;
+}
+    #s4-workspace #sideNavBox li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover,
+    #s4-workspace #sideNavBox li > a.ms-core-listMenu-item:hover,
+    #s4-workspace #sideNavBox li > a.ms-core-listMenu-item:active {color: #222;}
+    #s4-workspace #sideNavBox .ms-core-listMenu-item .ms-splinkbutton-text {margin:0 20px;display:block;
+}
+
+/*TOPNAVI*/
+/*#s4-workspace .custom-ms-breacrumb-top li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover,*/
+#s4-workspace .custom-ms-breacrumb-top li > a.ms-core-listMenu-item:active,
+/*#s4-workspace .custom-ms-breacrumb-top li > a.ms-core-listMenu-item:hover,*/
+#s4-workspace .custom-ms-breacrumb-top .ms-core-listMenu-selected:link,
+#s4-workspace .custom-ms-breacrumb-top .ms-core-listMenu-selected:visited,
+#s4-workspace .custom-ms-breacrumb-top .ms-core-listMenu-selected {
+  color: #810b19 !important;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:14px;
+	background-color:#fff !important;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right:5px;
+	height: 22px !important;
+}
+
+#s4-workspace .custom-ms-breacrumb-top li > a.ms-core-listMenu-item{
+	color: #fff !important;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:14px;
+	background-color:none !important;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right:5px;
+	height: 22px !important;
+}
+
+.custom-ms-breacrumb-top .ms-core-listMenu-horizontalBox ul, .ms-core-listMenu-horizontalBox li, .ms-core-listMenu-horizontalBox .ms-core-listMenu-item, .ms-core-listMenu-horizontalBox > ul > li > table
+{
+	margin-left: -10px;
+  min-width: 65px;
+  text-align: center;
+}
+
+/*#s4-workspace .custom-ms-breacrumb-top li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover*/
+#s4-workspace .custom-ms-breacrumb-top li > a.ms-core-listMenu-item:hover
+{
+  color: #810b19 !important;
+	background-color:#fff !important;
+}
+#s4-workspace .custom-ms-breacrumb-top li > a.ms-core-listMenu-item.ms-core-listMenu-selected:hover
+{
+  color: #fff !important;
+	background-color:#810b19 !important;
+}
+
+/*
+.custom-ms-breacrumb-top .ms-core-listMenu-item, .custom-ms-breacrumb-top .ms-core-listMenu-item:link, .custom-ms-breacrumb-top .ms-core-listMenu-item:visited, .custom-ms-breacrumb-top .ms-tv-item:link, .custom-ms-breacrumb-top .ms-tv-item:visited, .ms-tv-header:link, .custom-ms-breacrumb-top .ms-tv-header:visited
+{
+    color: #fff !important;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:14px;
+}
+*/
+
+#s4-workspace #mainbody a,
+#s4-workspace #mainbody .ms-link:visited {
+    color: #007f9f;
+    text-decoration: none;
+}
+
+#s4-workspace .well {
+    background-color: #fefefe;
+    border: 0px none transparent;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 10px;
+}
+
+.clearer {
+	clear: right !important;
+}
+
+div.article, div.welcome {
+	padding: 0px !important;
+}
+
+.ms-bgc-tp,.ms-bgc-tp-h:hover {background-color:#bbb;} /*top left square*/
+.o365cs-base .o365cs-topnavBGColor, .o365cs-base .o365cs-topnavBGColor-2, .o365cs-base.o365cs-topnavBGColor, .o365cs-base.o365cs-topnavBGColor-2 {background-color:#bbb !important;} /*top blue bar*/
+.o365cs-nav-header16 .o365cs-nav-item {color:#fff !important;} /*top left and right squares*/
+.o365cs-nav-header16 .o365cs-nav-item  {background-color:#bbb !important;} /*top left and right squares*/
+.o365cs-nav-header16 .o365cs-nav-item:hover {background-color:rgba(0, 0, 0, 0.25) !important;} /*top left and right squares*/
+.ms-tileview-tile-content {background-color:#810b19 !important;} /*team site boxes*/
+.ms-core-form-heading {color:#007f9f !important;} /*plus sign and other characters*/
+a, a:hover, a:visited {color:#007f9f;}; /*general links*/
+.ms-link,.ms-link:hover,.ms-link:visited,.ms-heroCommandLink {color:#007f9f !important;} /*links*/
+.ms-storefront-appiconspan {background-color:#810b19;} /*list squares in viewlsts.aspx*/
+.ms-pivotControl-surfacedOpt:hover, .ms-pivotControl-overflowDot:hover, .ms-pivotControl-surfacedOpt-selected {border-top-color: #007f9f;} /*links in lists header*/
+.ms-pivotControl-surfacedOpt:hover, .ms-pivotControl-overflowDot:hover, .ms-pivotControl-surfacedOpt-selected  {color: #007f9f;} /*links in lists header*/
+.ms-heroCommandLink, .ms-heroCommandLink:visited  {color:#007f9f;} /*new subsite link in viewlsts.aspx*/
+.ms-navedit-editLinksText > span > .ms-metadata, .ms-core-listMenuEdit > tr > .ms-navedit-linkCell > .ms-core-listMenu-item {color: #007f9f !important;} /*edit links*/
+.ms-cui-cg-db.ms-cui-cg {border-top-color: #810b19;} /*ribbon top border*/
+.ms-fcl-tda, .ms-fcl-tda-h:hover, .ms-fcl-tda-h:visited {color: #007f9f !important;} /*community links*/
+.ms-rtestate-field h1, h1.ms-rteElement-H1, .ms-rtestate-field h2, h2.ms-rteElement-H2 {color: #007f9f;} /*publishing portal front page headers*/
+div.ms-srch-sb,div.ms-InlineSearch-Outline-Baseline,div.ms-microfeed-focusBox,div.ms-tileview-tile-content,
+a.ms-storefront-selectanchor,a.ms-promlink-button ,input[type='submit'],input[type='button'],input[type='text'],textarea,select {border-radius: 5px;}
+.content-header-image {background: url("images/content-header-wide.jpg") no-repeat scroll 0 0 transparent;height:230px;}
+#ms-microblogdiv {min-width:0px !important;max-width:420px !important;}

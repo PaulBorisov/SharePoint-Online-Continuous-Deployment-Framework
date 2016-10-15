@@ -5,4 +5,4 @@ It supports both ways of deployment, the modern one based on the remote provisio
 SPO-CDF provides quick path to apply automated branding and customizations to newly created and already existing site collections in the minimal amount of time. 
 In addition, it supports postponed creation of site collections from all standard and configurable custom web-templates via a familiar OOB UI (slightly adjusted).
 
-More detailed descriptions can be found in the provided document "SharePoint-Online-Continuous-Deployment-Framework.docx".
+More detailed descriptions of SPO-CDF can be found in the supplemental document "SharePoint-Online-Continuous-Deployment-Framework.docx".

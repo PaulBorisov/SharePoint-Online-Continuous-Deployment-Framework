@@ -7,3 +7,9 @@ In addition, it supports postponed creation of site collections from all standar
 
 More detailed descriptions of SPO-CDF can be found in the supplemental document "SharePoint-Online-Continuous-Deployment-Framework.docx".
 You can also read these descriptions online in my blog post http://paulborisov.blogspot.fi/2016/10/sharepoint-online-continuous-deployment.html.
+
+TODO list:
+- Create simple config file for common parameters and eliminate duplicates in scripts.
+- Add seamless support for "on-premises" versions of SharePoint.
+- Add support of ClientId / ClientSecret in addition to plain text credentials.
+- Add more samples to a demo package (shared Managed Metadata navigation, Managed Properties for Search, local and global Taxonomy).

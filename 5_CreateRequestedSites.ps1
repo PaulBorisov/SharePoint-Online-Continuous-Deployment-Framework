@@ -11,8 +11,8 @@ param(
   ,[string]$dateTimeStampFormatShort = "HH:mm:ss"
   ,[bool]$deployLegacySolutionsForCustomWebTemplates = $true
   ,[int]$maxSitesToProcessInSingleRun = 10
-  ,[string[]]$defaultSiteAdministrators = @("paul", "spa")
-  ,[string[]]$defaultVisitors = @("paul", "spa")
+  ,[string[]]$defaultSiteAdministrators = @()
+  ,[string[]]$defaultVisitors = @()
 )
 
 ######################################################## FUNCTIONS #########################################################

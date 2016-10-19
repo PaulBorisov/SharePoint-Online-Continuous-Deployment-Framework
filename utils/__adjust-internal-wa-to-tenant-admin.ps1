@@ -3,7 +3,7 @@ Inspired by https://github.com/OfficeDev/PnP/blob/master/Samples/Provisioning.Si
 Enable the remote site collection creation for on-prem in web application level.
 If this is not done, unknown object exception is raised by the CSOM code on attempts to use Tenant's object.
 #>
-. "$PSScriptRoot\__LoadContext.ps1" -initContextOnLoad:$false
+. "$PSScriptRoot\..\__LoadContext.ps1" -initContextOnLoad:$false
 $uri = new-object System.Uri($siteCollectionUrl)
 $webApplicationUrl = [string]::Format("{0}://{1}", $uri.Scheme, $uri.Authority)
 write-host
@@ -39,7 +39,11 @@ if( $rootSite -eq $null ) {
 }
 
 $newProxyLibrary = New-Object "Microsoft.SharePoint.Administration.SPClientCallableProxyLibrary"
-$newProxyLibrary.AssemblyName = "Microsoft.Online.SharePoint.Dedicated.TenantAdmin.ServerStub, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"
+$assemblyVersion = [string]::Format(
+  "Microsoft.Online.SharePoint.Dedicated.TenantAdmin.ServerStub, Version={0}.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c", 
+  $wa.Farm.BuildVersion.Major
+)
+$newProxyLibrary.AssemblyName = $assemblyVersion
 $existingAssemblies = ($wa.ClientCallableSettings.ProxyLibraries | ? {$_.AssemblyName -ieq $newProxyLibrary.AssemblyName})
 if( $existingAssemblies.Length -eq 0 ) {
   $newProxyLibrary.SupportAppAuthentication = $true

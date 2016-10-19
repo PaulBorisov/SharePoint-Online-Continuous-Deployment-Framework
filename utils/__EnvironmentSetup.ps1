@@ -29,6 +29,7 @@ param(
   $content = ExecuteWebRequest $request -errorMessage ([ref]$errorMessage)
   if( $? -and !$errorMessage ) {
     $availableLanguages = @()
+    $availableLanguages += $context.Web.Language.ToString()
     [regex]::Matches($content, '(?i)<input[^>]+CblAlternateLanguages[^>]+value="([^"]+)"', "SingleLine") | % {
       $availableLanguages += $_.Groups[1].Value
     }
@@ -130,7 +131,7 @@ if( !$disableCustomizations ) {
   $allSupportedLocales = $null
   if( $allowOverwritingSupportedLocales ) {
     $allSupportedLocales = GetAvailableLanguages -context $context
-    if( $? -eq $false -or !$locales.Length ) {
+    if( $? -eq $false -or !$allSupportedLocales.Length ) {
       $allSupportedLocales = $supportedLocales
     }
   } else {

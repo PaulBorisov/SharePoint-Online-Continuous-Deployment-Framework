@@ -14,4 +14,4 @@ TODO list:
 - Add support of ClientId / ClientSecret in addition to plain text credentials.
 - Add more samples to a demo package (shared Managed Metadata navigation, Managed Properties for Search, local and global Taxonomy).
 
-October 19, 2016: enabled and successfully tested the functionality of SPO-CDF in the "on-premises" environment in addition to "Online" (the local Farm of SharePoint 2016; it requires the Public Update from October 2016 to support the method Tenant.GetSiteProperties()).
+October 19, 2016: enabled and successfully tested the functionality of SPO-CDF in the "on-premises" environment in addition to "Online" (used the local Farm of SharePoint 2016; it required the Public Update from October 2016 to unify usage of the method Tenant.GetSiteProperties() between "Online" and "on-premises").

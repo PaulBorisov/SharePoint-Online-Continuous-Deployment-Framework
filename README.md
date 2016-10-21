@@ -5,6 +5,9 @@ It supports both ways of deployment, the modern one based on the remote provisio
 SPO-CDF provides quick path to apply automated branding and customizations to newly created and already existing site collections in the minimal amount of time. 
 In addition, it supports postponed creation of site collections from all standard and configurable custom web-templates via a familiar OOB UI (dynamically adjusted).
 
+The extensible source repository of necessary customizations is physically stored in the subfolder “customizations” situated below the main folder of SPO-CDF in the file system. 
+All subfolders and files placed under the subfolder “customizations” are automatically deployed to (and referred from) correspondent locations under the base URL _catalogs/masterpage/customizations.
+
 More detailed descriptions of SPO-CDF can be found in the supplemental document "SharePoint-Online-Continuous-Deployment-Framework.docx".
 You can also read these descriptions online in my blog post http://paulborisov.blogspot.fi/2016/10/sharepoint-online-continuous-deployment.html.
 
